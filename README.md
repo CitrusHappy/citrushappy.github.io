@@ -1,2 +1,2 @@
 # citrushappy.github.io
-A portfolio for work-study projects
+This repo will be used as a portfolio for my work-study projects.
