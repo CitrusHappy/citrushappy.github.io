@@ -5,6 +5,6 @@ body {
     color: whitesmoke;
 }
 
-#game {
+iframe.game {
     border: 10px inset cornsilk;
 }
