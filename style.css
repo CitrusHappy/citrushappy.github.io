@@ -4,3 +4,7 @@ body {
     background-color: #333333;
     color: whitesmoke;
 }
+
+#game {
+    border: 10px inset cornsilk;
+}
