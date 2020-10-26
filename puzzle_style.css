@@ -6,6 +6,6 @@ body {
 }
 
 iframe {
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
