@@ -1,0 +1,11 @@
+/* StyleSheet */
+
+body {
+    background-color: #26262B;
+    color: whitesmoke;
+}
+
+iframe {
+    margin-left: 50%;
+    margin-right: 50%;
+}
