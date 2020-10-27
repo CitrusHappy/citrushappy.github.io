@@ -1,8 +1,21 @@
 /* StyleSheet */
 
+@font-face {
+    font-family: SourceSansPro;
+    src: url(/fonts/SourceSansPro-Regular.ttf);
+}
+
 body {
     background-color: black;
     color: whitesmoke;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    font-family: SourceSansPro;
 }
 
 .intro__contact .highlight-link {
