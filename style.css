@@ -28,5 +28,7 @@ iframe {
 }
 
 .hidden {
-    float: right;
+    display: block;
+    margin-right: 10%;
+    margin-top: 90%;
 }
