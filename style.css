@@ -5,13 +5,26 @@
     src: url(/fonts/SourceSansPro-Regular.ttf);
 }
 
+.active {
+    background-color: gray;
+}
+
 body {
     background-color: black;
-    color: whitesmoke;
+    color: white;
+}
+
+head {
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 20px;
+    margin-bottom: auto;
 }
 
 li {
     display: inline;
+    float: left;
 }
 
 ul {
