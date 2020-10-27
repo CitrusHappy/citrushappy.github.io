@@ -1,7 +1,7 @@
 /* StyleSheet */
 
 body {
-    background-color: #333333;
+    background-color: black;
     color: whitesmoke;
 }
 
@@ -25,4 +25,8 @@ iframe {
     -webkit-box-shadow: inset 0 -33px 0 0 #ac3232;
     box-shadow: inset 0 -33px 0 0 #ac3232;
     color: #fff
+}
+
+.hidden {
+    float: right;
 }
