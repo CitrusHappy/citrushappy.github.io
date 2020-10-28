@@ -1,52 +1,101 @@
-/* StyleSheet */
-
+/* Font Definitions */
 @font-face {
     font-family: SourceSansPro;
-    src: url(/fonts/SourceSansPro-Regular.ttf);
+    src: url(fonts/SourceSansPro-Regular.ttf);
+    
 }
 
-.active {
-    background-color: gray;
-}
+
 
 body {
     background-color: black;
     color: white;
 }
 
-head {
-    display: block;
+/* Header */
+header {
+    font-family: SourceSansPro;
+    
+    display: inline;
+    text-align: center;
     margin-left: 50%;
     margin-right: 50%;
     margin-top: 20px;
     margin-bottom: auto;
 }
 
-li {
-    display: inline;
-    float: left;
+/* NAV BAR */ 
+nav {
+    display: block;
+    float: none;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 ul {
     font-family: SourceSansPro;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.intro__contact .highlight-link {
-    -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+li {
+    display: inline;
+    float: left;
+    padding: 20px;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+li a:visited {
+    color: white;
+}
+
+section {
+    display: block;
+    margin-top: 18%;
+    text-align: center;
+}
+
+
+/* Email Link */
+.email .highlight-link {
+    display: inline-block;
+    
+    color: rgb(255, 195, 65);
     font-weight: 400;
     text-decoration: none;
-    display: inline-block;
+    
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+
+
+    
     padding: 2px 3px;
-    text-decoration: none;
-    -webkit-box-shadow: inset 0 -3px 0 #ac3232;
-    box-shadow: inset 0 -3px 0 #ac3232
+    -webkit-box-shadow: inset 0 -3px 0 #2fb5f3;
+    box-shadow: inset 0 -3px 0 #2fb5f3;
 }
 
-.intro__contact .highlight-link:hover {
-    -webkit-box-shadow: inset 0 -33px 0 0 #ac3232;
-    box-shadow: inset 0 -33px 0 0 #ac3232;
+.email .highlight-link:hover {
+    -webkit-box-shadow: inset 0 -33px 0 0 #2fb5f3;
+    box-shadow: inset 0 -33px 0 0 #2fb5f3;
     color: #fff
+}
+
+.email .highlight-link:visited {
+    color: white;
+
 }
 
 .hidden {
