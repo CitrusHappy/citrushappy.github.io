@@ -9,6 +9,12 @@
     src: url(fonts/SourceSansPro-Bold.ttf);
 }
 
+@font-face {
+    font-family: SourceSansPro-Light;
+    src: url(fonts/SourceSansPro-Light.ttf);
+}
+
+
 
 body {
     background-color: black;
@@ -18,7 +24,7 @@ body {
 
 /* Header */
 header {
-    font-family: SourceSansPro-Bold;
+    font-family: SourceSansPro-Light;
     
     display: inline;
     text-align: center;
@@ -91,13 +97,13 @@ section {
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     
-    -webkit-box-shadow: inset 0 -3px 0 #2fb5f3;
-    box-shadow: inset 0 -3px 0 #2fb5f3;
+    -webkit-box-shadow: inset 0 -3px 0 #313131;
+    box-shadow: inset 0 -3px 0#313131;
 }
 
 .email .highlight-link:hover {
-    -webkit-box-shadow: inset 0 -33px 0 0 #2fb5f3;
-    box-shadow: inset 0 -33px 0 0 #2fb5f3;
+    -webkit-box-shadow: inset 0 -33px 0 0 #313131;
+    box-shadow: inset 0 -33px 0 0 #313131;
     color: #fff
 }
 

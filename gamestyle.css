@@ -5,11 +5,15 @@
     float: left;
     margin-left: 10%;
     font-family: SourceSansPro-Regular;
+    padding: 20px;
+    padding-top: 40px;
 }
 
 .game-widget-desc {
+    text-align: left;
+    font-size: 15px;
     float: left;
-    margin-left: 10px;
+    padding-left: 40px;
 }
 
 
@@ -17,7 +21,6 @@
     float: left;
     display: inline;
     border: 1px white;
-    border-radius: 10px;
     border-right: 1px solid gray;
     height: 35%;
     width: 35%;
@@ -25,9 +28,14 @@
 }
 
 .gamebutton {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: SourceSansPro-Bold;
+
+    color: white;
+    text-decoration: none;
     border: none;
     background-color: orange;
     padding: 10px;
     border-radius: 4px;
-    margin-left: 20px;
 }
