@@ -1,0 +1,33 @@
+
+/* Game Widget */
+.game-widget {
+    display: block;
+    float: left;
+    margin-left: 10%;
+    font-family: SourceSansPro-Regular;
+}
+
+.game-widget-desc {
+    float: left;
+    margin-left: 10px;
+}
+
+
+.gameimage {
+    float: left;
+    display: inline;
+    border: 1px white;
+    border-radius: 10px;
+    border-right: 1px solid gray;
+    height: 35%;
+    width: 35%;
+    image-rendering: pixelated;
+}
+
+.gamebutton {
+    border: none;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 20px;
+}

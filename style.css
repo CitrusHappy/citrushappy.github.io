@@ -75,7 +75,7 @@ section {
     font-family: SourceSansPro-Regular;
 
     display: block;
-    margin-top: 18%;
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -114,35 +114,6 @@ section {
     padding-top: 90%;
 }
 
-/* Game Widget */
-.game-widget {
-    font-family: SourceSansPro-Regular;
-}
-
-.game-widget-desc {
-    float: left;
-    margin-left: 10px;
-}
-
-
-.gameimage {
-    float: left;
-    display: inline;
-    border: 1px white;
-    border-radius: 10px;
-    border-right: 1px solid gray;
-    height: 25%;
-    width: 25%;
-    image-rendering: pixelated;
-}
-
-.gamebutton {
-    border: none;
-    background-color: orange;
-    padding: 10px;
-    border-radius: 4px;
-    margin-left: 20px;
-}
 
 
 /* ScrollBar */
