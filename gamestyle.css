@@ -1,12 +1,16 @@
 
 /* Game Widget */
 .game-widget {
+    font-family: Palanquin-Regular;
     display: block;
     float: left;
     margin-left: 10%;
-    font-family: SourceSansPro-Regular;
     padding: 20px;
     padding-top: 40px;
+}
+
+.game-widget h1 {
+    font-family: Cairo-Bold;
 }
 
 .game-widget-desc {
@@ -21,7 +25,7 @@
     float: left;
     display: inline;
     border: 1px white;
-    border-right: 1px solid gray;
+    border-right: 1px solid #3d3a44;
     height: 35%;
     width: 35%;
     image-rendering: pixelated;

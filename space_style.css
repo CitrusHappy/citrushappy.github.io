@@ -1,0 +1,12 @@
+/* StyleSheet */
+
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
