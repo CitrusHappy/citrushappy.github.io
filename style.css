@@ -34,23 +34,31 @@
     src: url(fonts/Cairo-Regular.ttf);
 }
 
+/*
+* {
+    border: 1px solid crimson;
+}
+*/
+
 
 .greenstripe {
     width: 30px;
     position: absolute;
-    background-color: #98a9a09c;
+    background-color: #98a9a080;
     top: 0px;
     bottom: 0px;
     right: 50px;
+    z-index: -1;
 }
 
 .brownstripe {
     width: 30px;
     position: absolute;
-    background-color: #78554a9c;
+    background-color: #78554a80;
     top: 0px;
     bottom: 0px;
     right: 0px;
+    z-index: -1;
 }
 
 
@@ -76,25 +84,19 @@ header {
 /* NAV BAR */ 
 nav {
     display: block;
-    float: none;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 
 ul {
-    
-    list-style: none;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;
 }
 
 li {
     display: inline;
-    float: left;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 20px;
@@ -109,7 +111,7 @@ li {
 li a {
     font-family: Cairo-Regular;
     color: #3d3a44a8;
-    display: block;
+    display: inline-block;
     text-decoration: none;
 }
 
