@@ -1,34 +1,60 @@
 
 /* Game Widget */
 .game-widget {
-    font-family: Palanquin-Regular;
-    display: block;
-    float: left;
-    margin-left: 10%;
-    padding: 20px;
     padding-top: 40px;
+    display: flex;
+}
+
+.game-widget p, .game-widget a, .game-widget h2 {
+    font-family: Palanquin-Regular;
+    margin-left: 5%;
+    margin-bottom: 0px;
+}
+
+.game-widget p{
+    margin-top: 0px;
 }
 
 .game-widget h1 {
     font-family: Cairo-Bold;
+    font-size: 22px;
 }
 
-.game-widget-desc {
-    text-align: left;
-    font-size: 15px;
-    float: left;
-    padding-left: 40px;
+.game-widget h2 {
+    font-size: 16px;
+}
+
+.column {
+    flex: 50%;
+    border-right: 1px solid #3d3a44;
+}
+
+/* LIST */
+.game-widget ul {
+    list-style: none;
+    margin-left: 10px;
+    padding: 0;
+    text-indent: 10px;
+}
+
+.game-widget li {
+    display: block;
+    margin-left: 5%;
+    padding: 10px;
+    background: url('css/bullet.png') no-repeat left;
+    background-size: 12px;
+}
+
+b {
+    color: #78554a;
+    text-decoration: none;
 }
 
 
 .gameimage {
-    float: left;
-    display: inline;
-    border: 1px white;
-    border-right: 1px solid #3d3a44;
-    height: 35%;
-    width: 35%;
+    width: 90%;
     image-rendering: pixelated;
+    
 }
 
 .gamebutton {
