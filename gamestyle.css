@@ -1,7 +1,7 @@
 
 /* Game Widget */
 .game-widget {
-    padding-top: 40px;
+    padding-top: 60px;
     display: flex;
 }
 
@@ -15,13 +15,20 @@
     margin-top: 0px;
 }
 
+#puzzleimage p, #spaceimage p {
+    text-align: center;
+    margin-top: 290px;
+    margin-left: 0px;
+}
+
 .game-widget h1 {
     font-family: Cairo-Bold;
     font-size: 22px;
+    text-align: center;
 }
 
 .game-widget h2 {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .column {
@@ -31,6 +38,8 @@
 
 /* LIST */
 .game-widget ul {
+    font-family: Palanquin-Regular;
+    font-size: 15px;
     list-style: none;
     margin-left: 10px;
     padding: 0;
@@ -40,7 +49,8 @@
 .game-widget li {
     display: block;
     margin-left: 5%;
-    padding: 10px;
+    padding: 2px;
+    padding-left: 10px;
     background: url('css/bullet.png') no-repeat left;
     background-size: 12px;
 }
@@ -50,11 +60,18 @@ b {
     text-decoration: none;
 }
 
-
-.gameimage {
-    width: 90%;
+#puzzleimage {
+    background: url('puzzlegame.png') no-repeat;
+    background-size: 250px;
+    background-position: center;
     image-rendering: pixelated;
-    
+}
+
+#spaceimage {
+    background: url('spacegame.png') no-repeat;
+    background-size: 250px;
+    background-position: center;
+    image-rendering: pixelated;
 }
 
 .gamebutton {
@@ -66,6 +83,8 @@ b {
     text-decoration: none;
     border: none;
     background-color: orange;
-    padding: 10px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 4px;
 }
