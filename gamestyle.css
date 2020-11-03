@@ -3,6 +3,8 @@
 .game-widget {
     padding-top: 60px;
     display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .game-widget p, .game-widget a, .game-widget h2 {
