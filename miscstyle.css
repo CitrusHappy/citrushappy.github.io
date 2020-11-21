@@ -1,5 +1,6 @@
-div {
+#sketchfab-embed-wrapper {
     float: none;
+    padding-top: 10px;
     margin: auto;
     width: 50%;
 }
