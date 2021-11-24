@@ -223,6 +223,14 @@ section {
     background-size: contain
 }
 
+.curseforge
+{
+    width: auto;
+    height: 50px;
+    padding: 1%;
+    background-size: contain
+}
+
 footer {
     border-top: 1px solid #3d3a4434;
     margin: 0 auto;
